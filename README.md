@@ -1,6 +1,8 @@
 # Slime 
 
-Make slime effects in GIMP
+Make slime effects in GIMP. Go here to download
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Slime/releases
 
 ![image](https://github.com/user-attachments/assets/061e94f0-d636-48b4-881d-71cbcf689c4b)
 
