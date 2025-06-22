@@ -6,7 +6,6 @@ Make slime effects in GIMP
 
 ![image](https://github.com/user-attachments/assets/944e51c8-b592-4e97-80a4-2b782f3f8b2a)
 
-
 ## Directory to put Binaries (They do NOT go in the normal plugins folder)
 
 **Windows**
@@ -24,6 +23,10 @@ Then Restart Gimp and go to Filters>Noise and look for "Liquid Noise" or just se
 GIMP 2.10 users will only find this in GEGL Operation drop down list and it will only work on 2.10 if they are using GEGL 0.4.50+, all normal windows builds of GIMP 2.10 ship with GEGL 0.4.48
 
 ## Compiling and Installing
+
+Just run build_plugin_linux or build_plugin_windows.sh 
+
+To understand what they do or if you want to do it ultra manual read this.
 
 ### Linux
 
