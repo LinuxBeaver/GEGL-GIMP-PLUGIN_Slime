@@ -18,7 +18,7 @@ C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins
 `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins`
 
 
-Then Restart Gimp and go to Filters>Noise and look for "Liquid Noise" or just search for it with /
+Then Restart Gimp and go to Filters>Noise and look for "Slime" in filters>text styling or just search for it with /
 
 GIMP 2.10 users will only find this in GEGL Operation drop down list and it will only work on 2.10 if they are using GEGL 0.4.50+, all normal windows builds of GIMP 2.10 ship with GEGL 0.4.48
 
