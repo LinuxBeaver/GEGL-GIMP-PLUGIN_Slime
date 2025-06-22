@@ -61,3 +61,8 @@ meson setup --buildtype=release build
 ninja -C build
 ```
 
+# More previews of this based plugin
+
+![image](https://github.com/user-attachments/assets/3ab3fd64-33b1-4527-a7ae-536f9dbe1f43)
+
+
