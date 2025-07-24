@@ -70,6 +70,11 @@ property_double (ripple_angle, _("Sine angle"), 6.0)
     value_range (0.0, 360.0)
     ui_meta ("unit", "degree")
 
+property_double (gloss_opacity, _("White Gloss Opacity"), 1.2)
+    description (_("The opacity of the white gloss"))
+    value_range (0.5, 1.2)
+    ui_meta ("unit", "degree")
+
 property_seed (seed, _("Seed"), rand)
     description (_("Seed of the slime"))
 
@@ -202,7 +207,8 @@ static void update_graph (GeglOperation *operation)
  gegl_operation_meta_redirect (operation, "azimuth1", state->glassoverlay1,  "azimuth");
  gegl_operation_meta_redirect (operation, "azimuth2", state->glassoverlay2,  "azimuth");
  gegl_operation_meta_redirect (operation, "shade", state->innerglow,  "radius");
-
+ gegl_operation_meta_redirect (operation, "gloss_opacity", state->glassoverlay1,  "hyperopacity");
+ gegl_operation_meta_redirect (operation, "gloss_opacity", state->glassoverlay2,  "hyperopacity");
 }
 
 static void
