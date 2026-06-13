@@ -61,12 +61,12 @@ property_double (azimuth2, _("Half azimuth 2"), 203.0)
     ui_meta ("unit", "degree")
 
 property_double (ripple_amplitude, _("Sine Amplitude"), 32.0)
-    description (_("Internal ripple's amplitude"))
+    description (_("Internal rippleꞌs amplitude"))
     value_range (20.0, 60.0)
     ui_meta ("unit", "degree")
 
 property_double (ripple_angle, _("Sine angle"), 6.0)
-    description (_("Internal ripple's angle"))
+    description (_("Internal rippleꞌs angle"))
     value_range (0.0, 360.0)
     ui_meta ("unit", "degree")
 
